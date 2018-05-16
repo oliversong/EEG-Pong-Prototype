@@ -11,5 +11,5 @@ We are also using a MATLAB pong game created by David Buckingham
 with some modifications to implement EEG control with eye movement.
 
 This project will be continously udpated and will have two different
-version. One version will be a stable release and the other will be
+versions. One version will be a stable release and the other will be
 a developer version.
