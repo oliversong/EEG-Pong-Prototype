@@ -25,17 +25,7 @@ pong_matlab is the folder containing the pong game to run in MATLAB built by Dav
 with modifications.
 
 ===========================================================================================================
-Process: 
-
-We are achieving this with 2 openBCI headsets built from scratch
-with the help of OSHpark/Digi-Key for PCB manufacturing and 
-components.
-
-Included in this EEG software suite is UCSD's EEGlab software
-and the developer version of BCIlab which we are using for EEG data processing.
-
-We are also using a MATLAB pong game created by David Buckingham
-with some modifications to implement EEG control with eye movement.
+NOTICE:
 
 This project will be continously udpated and will have two different
 versions. One version will be a stable release and the other will be
