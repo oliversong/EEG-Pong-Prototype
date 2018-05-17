@@ -1,5 +1,5 @@
 This is the Alpha build for the 2 player pong EEG software suite being built by IEEE Chico State EECE students. 
-
+===========================================================================================================
 Abstract: 
 
 The goal of this project is to have two users with openBCI headsets 
