@@ -99,7 +99,6 @@ MESSAGE_INTRO = [...
   ' use (a) and (z)     use arrow keys' 10 10 ...
   ];
 MESSAGE_CONTROLS = '  pause:(p)   reset:(r)   quit:(q)';
-
 %----------------------VARIABLES----------------------
 fig = []; %main program figure
 quitGame = false; %guard for main loop. when true, program ends
@@ -248,12 +247,18 @@ paddle2 = [];
       %hit right wall
       if (newY > GOAL_BOT && newY < GOAL_TOP - BALL_RADIUS)
         %hit bottom goal edge
+        [wall_hit_sound,sample_rate_wall_hit] = audioread('ping_pong_8bit_beeep.wav');
+        sound(wall_hit_sound,sample_rate_wall_hit);
         bounce([newX - PLOT_W, newY - GOAL_BOT]);
       elseif (newY < GOAL_TOP && newY > GOAL_BOT + BALL_RADIUS)
         %hit top goal edge
+        [wall_hit_sound,sample_rate_wall_hit] = audioread('ping_pong_8bit_beeep.wav');
+        sound(wall_hit_sound,sample_rate_wall_hit);
         bounce([newX - PLOT_W, newY - GOAL_TOP]);
       else
         %hit flat part of right wall
+        [wall_hit_sound,sample_rate_wall_hit] = audioread('ping_pong_8bit_beeep.wav');
+        sound(wall_hit_sound,sample_rate_wall_hit);
         bounce([-1 * abs(ballVector(1)), ballVector(2)]);
       end
       
@@ -263,21 +268,31 @@ paddle2 = [];
       %hit left wall
       if (newY > GOAL_BOT && newY < GOAL_TOP - BALL_RADIUS)
         %hit bottom goal edge
+        [wall_hit_sound,sample_rate_wall_hit] = audioread('ping_pong_8bit_beeep.wav');
+        sound(wall_hit_sound,sample_rate_wall_hit);
         bounce([newX, newY - GOAL_BOT]);
       elseif (newY < GOAL_TOP && newY > GOAL_BOT + BALL_RADIUS)
         %hit top goal edge
+        [wall_hit_sound,sample_rate_wall_hit] = audioread('ping_pong_8bit_beeep.wav');
+        sound(wall_hit_sound,sample_rate_wall_hit);
         bounce([newX, newY - GOAL_TOP]);
       else
+        [wall_hit_sound,sample_rate_wall_hit] = audioread('ping_pong_8bit_beeep.wav');
+        sound(wall_hit_sound,sample_rate_wall_hit);
         bounce([abs(ballVector(1)), ballVector(2)]);
       end
       
       %hit test top wall
     elseif (newY > (PLOT_H - BALL_RADIUS))
       %hit top wall
+      [wall_hit_sound,sample_rate_wall_hit] = audioread('ping_pong_8bit_beeep.wav');
+      sound(wall_hit_sound,sample_rate_wall_hit);
       bounce([ballVector(1), -1 * (Y_FACTOR + abs(ballVector(2)))]);
       %hit test bottom wall
     elseif (newY < BALL_RADIUS)
       %hit bottom wall,
+      [wall_hit_sound,sample_rate_wall_hit] = audioread('ping_pong_8bit_beeep.wav');
+      sound(wall_hit_sound,sample_rate_wall_hit);
       bounce([ballVector(1), (Y_FACTOR + abs(ballVector(2)))]);
       
       %hit test paddle 1
@@ -285,6 +300,8 @@ paddle2 = [];
         && newX > p1L - BALL_RADIUS ...
         && newY < p1T + BALL_RADIUS ...
         && newY > p1B - BALL_RADIUS)
+        [paddle_bounce_sound,sample_rate_paddle] = audioread('ping_pong_8bit_peeeeeep.wav');
+        sound(paddle_bounce_sound,sample_rate_paddle);
       bounce([(ballX-p1Center(1)) * P_FACTOR, newY-p1Center(2)]);
       
       %hit test paddle 2
@@ -292,6 +309,8 @@ paddle2 = [];
         && newX > p2L - BALL_RADIUS ...
         && newY < p2T + BALL_RADIUS ...
         && newY > p2B - BALL_RADIUS)
+        [paddle_bounce_sound,sample_rate_paddle] = audioread('ping_pong_8bit_peeeeeep.wav');
+        sound(paddle_bounce_sound,sample_rate_paddle);
       bounce([(ballX-p2Center(1)) * P_FACTOR, newY-p2Center(2)]);
     else
       %no hits
@@ -347,12 +366,16 @@ paddle2 = [];
     goal = false;
     
     if ballX > PLOT_W + BALL_RADIUS + GOAL_BUFFER
+      [pong_score_sound,sample_rate_score] = audioread('ping_pong_8bit_plop.wav');
+      sound(pong_score_sound,sample_rate_score);
       score(1) = score(1) + 1;
       if score(1) == MAX_POINTS;
         winner = 1;
       end
       goal = true;
     elseif ballX < 0 - BALL_RADIUS - GOAL_BUFFER
+      [pong_score_sound,sample_rate_score] = audioread('ping_pong_8bit_plop.wav');
+      sound(pong_score_sound,sample_rate_score);
       score(2) = score(2) + 1;
       if score(2) == MAX_POINTS;
         winner = 2;
