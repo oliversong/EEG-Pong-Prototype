@@ -25,7 +25,6 @@ pong_matlab is the folder containing the pong game to run in MATLAB built by Dav
 with modifications.
 
 ===========================================================================================================
-
 Process: 
 
 We are achieving this with 2 openBCI headsets built from scratch
