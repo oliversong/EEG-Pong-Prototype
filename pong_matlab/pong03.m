@@ -98,7 +98,7 @@ MESSAGE_INTRO = [...
   '    player 1:           player 2:' 10 ...
   ' use (a) and (z)     use arrow keys' 10 10 ...
   ];
-MESSAGE_CONTROLS = '  pause:(p)   reset:(r)   quit:(q)';
+MESSAGE_CONTROLS = '  pause:(p)   reset:(r)   quit:(Esc)';
 %----------------------VARIABLES----------------------
 fig = []; %main program figure
 quitGame = false; %guard for main loop. when true, program ends
@@ -464,7 +464,7 @@ paddle2 = [];
         end
       case 'r'
         newGame;
-      case 'q'
+      case 'escape'
         unpauseGame;
         quitGame = true;
     end
