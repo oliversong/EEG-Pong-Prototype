@@ -5,7 +5,7 @@ transmitting wireless biopotential data via bluetooth to a network streaming lay
 The networking streaming layer then takes that data into BCIlab where it is then processed 
 in EEGlab with plugins to identify eye movements. Once the data is procesed it will be used 
 to control an individual pong paddle for each player in real time within a modified MATLAB pong game.
-================================================================================================================
+===========================================================================================================
 Contents:
 
 Inside the project are various folders containing different software.
@@ -22,7 +22,7 @@ eeglab14_1_1_b is the latest stable release of the EEGlab software toolkit to be
 pong_matlab is the folder containing the pong game to run in MATLAB built by David Buckingham
 with modifications.
 
-================================================================================================================
+===========================================================================================================
 
 Process: We are achieving this with 2 openBCI headsets built from scratch
 with the help of OSHpark/Digi-Key for PCB manufacturing and 
@@ -37,4 +37,4 @@ with some modifications to implement EEG control with eye movement.
 This project will be continously udpated and will have two different
 versions. One version will be a stable release and the other will be
 a developer version.
-================================================================================================================
+===========================================================================================================
