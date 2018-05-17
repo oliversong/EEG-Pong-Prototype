@@ -1,6 +1,8 @@
 This is the Alpha build for the 2 player pong EEG software suite being built by IEEE Chico State EECE students. 
 
-Abstract: The goal of this project is to have two users with openBCI headsets 
+Abstract: 
+
+The goal of this project is to have two users with openBCI headsets 
 transmitting wireless biopotential data via bluetooth to a network streaming layer. 
 The networking streaming layer then takes that data into BCIlab where it is then processed 
 in EEGlab with plugins to identify eye movements. Once the data is procesed it will be used 
@@ -24,7 +26,9 @@ with modifications.
 
 ===========================================================================================================
 
-Process: We are achieving this with 2 openBCI headsets built from scratch
+Process: 
+
+We are achieving this with 2 openBCI headsets built from scratch
 with the help of OSHpark/Digi-Key for PCB manufacturing and 
 components.
 
