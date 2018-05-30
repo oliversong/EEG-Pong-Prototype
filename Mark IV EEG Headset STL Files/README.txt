@@ -1,18 +1,18 @@
 Bill of Materials
 
 1x EEG FRAME (Medium Size)
-35x Octabolt
-35x Eholder
-35x Hardware Inserts (Need to determine if 105.5 or 106 scaling)
-30x Wire Clips
+16x Octabolt
+16x Eholder
+16x Hardware Inserts (Need to determine if 105.5 or 106 scaling)
+16x Wire Clips
 
 3-D Printing Instructions
 
-If you’re 3D-printing your Mark IV yourself, here are the print settings we recommend: 
+If youâ€™re 3D-printing your Mark IV yourself, here are the print settings we recommend: 
 
 FRAME_FRONT & FRAME_BACK Material: PLA 
 Supports: YES 
-Raft: hopefully NO (but if supports aren’t sticking, try the raft) 
+Raft: hopefully NO (but if supports arenâ€™t sticking, try the raft) 
 Infill: 20% 
 Layer Height: 0.2mm 
 Number of Shells: 3 
