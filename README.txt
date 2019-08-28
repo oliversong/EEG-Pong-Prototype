@@ -17,11 +17,16 @@ Mark IV EEG Headset STL Files is the folder containing all the CAD files for 3D 
 OpenBCI Cyton Firmware folder contains the raw firmware data needed to be flashed to the openBCI
 Cyton board.
 
-It is recommended that you download the OpenBCI GUI from their website using the following
-link: https://openbci.com/index.php/downloads
-
 The Python Project Folder contains all the files needed to run the game in the PyCharm IDE.
 ===========================================================================================================
+Downloads:
+
+It is recommended that you download the OpenBCI GUI from their website using the following
+Link: https://openbci.com/index.php/downloads
+
+Please download the PyCharm Community Edition IDE for your system as well.
+Link: https://www.jetbrains.com/pycharm/download/#section=windows
+
 NOTICE:
 
 This project will be continously udpated and will have two different
