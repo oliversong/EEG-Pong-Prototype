@@ -12,17 +12,17 @@ Contents:
 
 Inside the project are various folders containing different software.
 
-BCILAB-devel is the application to be run in MATLAB for data accquisition.
-
 Mark IV EEG Headset STL Files is the folder containing all the CAD files for 3D printing.
 
 OpenBCI Cyton Firmware folder contains the raw firmware data needed to be flashed to the openBCI
 Cyton board.
 
-eeglab14_1_1_b is the latest stable release of the EEGlab software toolkit to be run in MATLAB.
+It is recommended that you download the OpenBCI GUI from their website using the following
+link: https://openbci.com/index.php/downloads
 
-pong_matlab is the folder containing the pong game to run in MATLAB built by David Buckingham
-with modifications.
+The Python Project Folder contains all the files needed to run the game in the PyCharm IDE.
+
+
 
 ===========================================================================================================
 NOTICE:
