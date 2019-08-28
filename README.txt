@@ -21,9 +21,6 @@ It is recommended that you download the OpenBCI GUI from their website using the
 link: https://openbci.com/index.php/downloads
 
 The Python Project Folder contains all the files needed to run the game in the PyCharm IDE.
-
-
-
 ===========================================================================================================
 NOTICE:
 
