@@ -26,7 +26,7 @@ Link: https://openbci.com/index.php/downloads
 
 Please download the PyCharm Community Edition IDE for your system as well.
 Link: https://www.jetbrains.com/pycharm/download/#section=windows
-
+===========================================================================================================
 NOTICE:
 
 This project will be continously udpated and will have two different
