@@ -1,1 +1,0 @@
-any(cellfun(@exist,{'midwt', 'mirdwt', 'mrdwt'})==3)

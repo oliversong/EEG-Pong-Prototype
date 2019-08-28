@@ -1,1 +1,0 @@
-any(cellfun(@exist,{'lbfgs_'})==3)

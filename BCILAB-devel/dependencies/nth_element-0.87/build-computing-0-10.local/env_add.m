@@ -1,1 +1,0 @@
-any(cellfun(@exist,{'fast_median', 'fast_median_ip', 'nth_element', 'nth_element_ip'})==3)

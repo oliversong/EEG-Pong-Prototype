@@ -1,2 +1,0 @@
-The subdirectories contain replacement functions for possibly missing files that are natively supported in later MATLAB versions.
-BCILAB attempts to support all MATLAB versions starting with R14 / 7.0.

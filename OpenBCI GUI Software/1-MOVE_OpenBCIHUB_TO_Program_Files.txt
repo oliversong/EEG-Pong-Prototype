@@ -1,1 +1,0 @@
-Drag and drop the OpenBCIHub into you Program Files folder.

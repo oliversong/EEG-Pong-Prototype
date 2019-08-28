@@ -1,1 +1,0 @@
-The last step is to move the folder called OpenBCI_GUI to your "Program Files" directory.

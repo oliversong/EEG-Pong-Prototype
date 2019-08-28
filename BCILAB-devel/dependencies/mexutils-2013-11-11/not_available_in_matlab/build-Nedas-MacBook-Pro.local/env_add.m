@@ -1,1 +1,0 @@
-any(cellfun(@exist,{'arraydeal', 'chopdeal'})==3)
