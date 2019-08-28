@@ -1,4 +1,16 @@
-This is the Alpha build for the 2 player pong EEG software suite being built by IEEE Chico State EECE students. 
+This is the Alpha build for the 2 player pong EEG software suite being built by IEEE Chico State EECE students.
+
+Contact:
+
+If you wish to contact us regarding the project please feel free to reach out to us.
+
+Email: csuchicoieee@gmail.com
+Website: http://sites.ieee.org/sb-csuchico/
+Facebook: https://www.facebook.com/CSU-Chico-IEEE-173996999311476/
+Slack*: https://app.slack.com/client/TC7PDB7PZ/CC6NDASKC
+
+*To join the Slack you must have a chico.edu email account. In the event that you are not a chico student/faculty
+we recommend contacting us via email (preferred).
 ===========================================================================================================
 Abstract: 
 
