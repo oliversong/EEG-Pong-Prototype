@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/AMTIForcePlate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/AudioCaptureWin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/BAlert" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/Benchmarks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/BestPracticesGUI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/BioSemi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/BrainAmpSeries" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/BrainProducts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/Cognionics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/EGIAmpServer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/EmbarcaderoXE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/Enobio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/Examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/EyeLink" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/EyeTribe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/GameController" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/Keyboard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/KinectMocap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/LabRecorder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/MATLABViewer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/MINDO" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/MQTT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/MeasurementComputing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/MeasurementComputing/MCCDaq-libusb-driver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/Mouse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/Neuroscan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/NeuroscanAcquire" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/OpenVR" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/OptiTrack" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/OutOfTreeTest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/PhaseSpace" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/PupilLabs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/Qualisys" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/ReceiveVideo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/SMIEyetracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/SerialPort" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/StaticInfo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/Tobii" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/Wiimote" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/XDFBrowser" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/eegoSports" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/emotiv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/Apps/g.Tec" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/LSL/liblsl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/LSL/liblsl-Android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/LSL/liblsl-Csharp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/LSL/liblsl-Generic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/LSL/liblsl-Java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/LSL/liblsl-Matlab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labstreaminglayer/LSL/liblsl-Python" vcs="Git" />
+  </component>
+</project>
